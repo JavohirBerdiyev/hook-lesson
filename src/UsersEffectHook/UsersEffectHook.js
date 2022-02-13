@@ -4,7 +4,7 @@ import load from '../load/load';
 import Paging from '../Paging';
 import Users from '../Users/Users';
 
-function useEffectHook() {
+function UsersEffectHook() {
 
   const [users, setUsers] = useState([]);
   const [currentPage, setCurrent] = useState(1);
@@ -26,4 +26,4 @@ function useEffectHook() {
   );
 }
 
-export default useEffectHook;
+export default UsersEffectHook;

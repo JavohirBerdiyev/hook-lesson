@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Form2 from './Form/Form2';
+import UsersEffectHook from './UsersEffectHook/UsersEffectHook';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <div className='w-50'>
         <Form2 />
       </div>
+      <UsersEffectHook />
     </div>
   );
 }
